@@ -12,7 +12,7 @@ h1 {
   text-align: left;
 }
   
-p {
+p,ul {
   font-family: verdana;
   font-size: 20px;
 }

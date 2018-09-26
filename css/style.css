@@ -5,9 +5,10 @@ body {
 h1 {
   color: white;
   text-align: center;
+  font-family: Didact Gothic;
 }
 
 p {
-  font-family: 'Didact Gothic';
+  font-family: verdana;
   font-size: 20px;
 }

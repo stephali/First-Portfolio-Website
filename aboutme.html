@@ -1,59 +1,95 @@
 <!DOCTYPE html>
-  <html lang="en-US">
-  <meta charset="UTF-8">
-    
+<html lang="en-US">
+<meta charset="UTF-8">
+
 <head>
-  <title>Student Portfolio - About Me</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+    <title>Student Portfolio - About Me</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width"
+    <meta name="author" content="Stephanie Ali"
+  </head>
 
-<body>
-  <center><h1 id="name">Stephanie Ali</h1></center>
-  
-  <!-- Menu -->
-  <center><h3>
-    <a href="index.html">Home</a> | <b>About Me</b> | <a href="education.html">Education</a> | <a href="portfolio.html">Portfolio</a> | <a href="accessibility.html">Accessibility</a>
-  </h3></center>
+<!--Menu-->
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Stephanie Ali</span></h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="current"><a href="aboutme.html">About Me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="accessibility.html">Accessibility</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
- <h2>About Me</h2>
-  <div class="about-me">
-      <p>
-      My name is Stephanie Ali and I am currently a freshman at Florida Gulf Coast University studying Software Engineering.<br/>
-      My passions revolve around the worlds of business and technology. 
-      </p>
-      <p>
-      Since I was very little, I always loved everything that had to do with technology. I would always keep up to date with the latest tech in the market.<br/>
-      I would spend hours researching and learning about the newer details and features just for the fun of it.<br/>
-      Something about the mystery surrounding the way they worked had always sparked interest in me.<br/>
-      This interest led me to choose Software Engineering as my field of study. 
-      </p>
-      <p>
-      I love to create. One of my biggest ambitions is to be able to create something meaningful and bring it out to the world.<br/>
-      To make an impact on the world for a better good is what I always aim to do. 
-      </p>
-      <p>
-      <video width="320" height="240" controls>
-      <source src="digitaltransformation.mp4" type="video/mp4">
-      </video>
-      </p>
-    <p><a href="https://www.npr.org/sections/alltechconsidered/2018/02/05/583321707/can-computers-learn-like-humans" target="_blank">Can Computers Learn Like Humans?</a></p>
-      <p>
-      <audio controls>
-      <source src="computerstalk.mp3" type="audio/mpeg">
-      </audio>
-      </p>
-        
-  </div>
-  
-  <h2>Virtues</h2>
-  <div class="virtues">
-      <p>
-        <ul>
-          <li>Patience</li>
-          <li>Faith</li>
-          <li>Hope</li>
-        </ul
-      </p>
-  </div>      
-</body>
+<!--About Me-->
+    <section id="main">
+     <div class="container">
+      <article id="main-col">
+        <h1 class="page-title">About Me</h1>
+        <p>
+        My name is Stephanie Ali and I am currently a freshman at Florida Gulf Coast University studying Software Engineering. My passions revolve around the worlds of business and technology.
+        </p>
+        <p>
+        Since I was very little, I always loved everything that had to do with technology. I would always keep up to date with the latest tech in the market. I would spend hours researching and learning about the newer details and features just for the fun of it.Something about the mystery surrounding the way they worked had always sparked interest in me. This interest led me to choose Software Engineering as my field of study.
+        </p>
+        <p>
+        I love to create. One of my biggest ambitions is to be able to create something meaningful and bring it out to the world. To make an impact on the world for a better good is what I always aim to do.
+        </p>
+        <p class="dark">
+        <video width="320" height="240" controls>
+        <source src="digitaltransformation.mp4" type="video/mp4">
+        </video>
+        </p>
+        <p class="dark"><a href="https://www.npr.org/sections/alltechconsidered/2018/02/05/583321707/can-computers-learn-like-humans" target="_blank">Can Computers Learn Like Humans?</a></p>
+        <p class="dark">
+        <audio controls>
+        <source src="computerstalk.mp3" type="audio/mpeg">
+        </audio>
+        </p>
+        </article>
+
+<!--Sidebar (Education) -->
+      <aside id="sidebar">
+        <div class="dark">
+        <h3 class="sidebar-title">Education</h3>
+        <p>
+        <strong>Florida Gulf Coast University</strong><br/>
+        <i>8/18-Present</i><br/>
+        Freshman<br/>
+        Major: Software Engineering
+        </p>
+        <p>
+        <strong>Florida SouthWestern State College</strong><br/>
+        <i>8/15-5/18</i><br/>
+        General Education
+        </p>
+        <p>
+        <strong>Lorenzo Walker Technical College</strong><br/>
+        <i>8/16-5/18</i><br/>
+        Certificates: Entrepreneurship, Marketing & E-Commerce
+        </p>
+        <p>
+        <strong>Lorenzo Walker Technical High School</strong><br/>
+        <i>1/15-5/18</i><br/>
+        summa cum laude
+        </p>
+      </div>
+      </aside>
+     </div>
+    </section>
+
+<!--Footer-->
+    <footer>
+      <p>Stephanie Ali's Student Portfolio</p>
+      <a href="http://www.w3.org/html/logo/">
+        <img id="badge" src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
+      </a>
+    </footer>
+  </body>
 </html>

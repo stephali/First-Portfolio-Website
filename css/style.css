@@ -73,7 +73,7 @@ header a:hover{
 /* Showcase */
 #showcase{
   min-height:400px;
-  background: url(pinkcircuitboard.jpg)lightpink;
+  background:(pinkcircuitboard.jpg);
   background-size:cover;
   background-position:center;
   text-align:center;

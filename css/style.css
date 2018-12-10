@@ -1,33 +1,178 @@
-body {
-  background-color: lightpink;
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
 }
 
-h1 {
-  color: black;
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.dark{
+  padding: 15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header */
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#ff99d2 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight,header .current a{
+  color:#ff99d2;
+  font-weight: bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+  min-height:400px;
+  background: url('../img/pinkcircuitboard.jpg')no-repeat;
+  background-size:cover;
+  background-position:center;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+#selfie {
+  width:350px;
+  margin-top:25px;
+}
+
+/* Boxes */
+#boxes{
+  margin-top: 20px;
+}
+
+#boxes .box{
+  float:left;
   text-align: center;
-  font-size: 45px;
+  width:30%;
+  padding: 10px;
 }
 
-h2 {
-  color: black;
-  text-align: left;
-  font-size: 35px;
-}
-  
-p,ul {
-  font-family: verdana;
-  font-size: 20px;
+#boxes .box img{
+  width:100px;
+
 }
 
-.about-me {
-  color: black;
+/* Sidebar */
+aside#sidebar{
+  float: right;
+  width: 30%;
+  margin-top: 10px;
 }
 
-/*this is the first image*/
-#selfie1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 273px;
-  height: 211px;
+/* Main-col*/
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* Portfolio */
+ul#portfolio li{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+.sidebar-title{
+  color:#ff99d2
+}
+
+/* Footer */
+footer{
+  padding:35px;
+  margin-top:70px;
+  color:#ffffff;
+  background-color:#ff99d2;
+  border-bottom:#35424a 5px solid;
+  border-top:#35424a 5px solid;
+  text-align: center;
+}
+
+#badge{
+    height: auto;
+    width: auto;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+header #branding,
+header nav,
+header nav li,
+#boxes .box,
+article#main-col,
+aside#sidebar{
+  float: none;
+  text-align: center;
+  width: 100%;
+}
+
+header{
+  padding-bottom:20px;
+}
+#showcase h1{
+  margin-top:40px;
+}
 }

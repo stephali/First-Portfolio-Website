@@ -1,39 +1,91 @@
 <!DOCTYPE html>
-  <html lang="en-US">
-  <meta charset="UTF-8">
-    
+<html lang="en-US">
+<meta charset="UTF-8">
+
 <head>
-  <title> Student Portfolio - Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+    <title>Student Portfolio - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width"
+    <meta name="author" content="Stephanie Ali"
+  </head>
 
-<body>
-  <center><h1 id="name">Stephanie Ali</h1></center>
-  
-  <!-- Menu -->
-  <center><h3>
-    <a href="index.html">Home</a> | <a href="aboutme.html">About Me</a> | <a href="education.html">Education</a> | <b>Portfolio</b> | <a href="accessibility.html">Accessibility</a>
-  </h3></center>
+<!--Menu-->
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Stephanie Ali</span></h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li class="current"><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="accessibility.html">Accessibility</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <h2>Documents</h2>
-  <div class="documents">
-      <p>
-       <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://stephali.github.io/fieldsreport1.pdf" width="500" height="375">
-      </p>
-  </div>      
-    
-  <!--later on make these links into buttons-->
-  <h2>Profiles</h2> 
-  <div class="profiles">
-    <p><a href="https://www.codecademy.com/users/stephali/achievements" target="_blank">Codecademy</a></p>
-    <p><a href="https://github.com/stephali" target="_blank">GitHub</a></p>
-    <p><a href="https://www.linkedin.com/in/stephanie-ali/" target="_blank">LinkedIn</a></p>
-  </div>
-  
-  <h2>Projects</h2> 
-  <div class="projects">
-    <p><a href="https://scratch.mit.edu/projects/245195330/#player" target="_blank">Scratch</a></p>
-  </div>
-  
-</body>
+<!--Profiles, Projects, Documents-->
+    <section id="main">
+     <div class="container">
+      <article id="main-col">
+        <h1 class="page-title">Portfolio</h1>
+        <ul id="portfolio">
+          <li>
+          <h3>Profiles</h3>
+            <p><a href="https://www.linkedin.com/in/stephanie-ali/" target="_blank">LinkedIn</a></p>
+            <p><a href="https://www.codecademy.com/users/stephali/achievements" target="_blank">Codecademy</a></p>
+            <p><a href="https://github.com/stephali" target="_blank">GitHub</a></p>
+          </li>
+          <li>
+          <h3>Projects</h3>
+            <p><a href="https://scratch.mit.edu/projects/245195330/#player" target="_blank">Scratch</a></p>
+          </li>
+          <li>
+          <h3>Documents</h3>
+            <p><a href="https://drive.google.com/file/d/1KNr9Tx6QNqCQQ5lt4_IaHxzydBD7Yp4Z/view?usp=sharing" target="_blank">Fields Report</a></p>
+          </li>
+          </ul>
+        </article>
+
+<!--Sidebar-->
+      <aside id="sidebar">
+        <div class="dark">
+        <h3 class="sidebar-title">Education</h3>
+        <p>
+        <strong>Florida Gulf Coast University</strong><br/>
+        <i>8/18-Present</i><br/>
+        Freshman<br/>
+        Major: Software Engineering
+        </p>
+        <p>
+        <strong>Florida SouthWestern State College</strong><br/>
+        <i>8/15-5/18</i><br/>
+        General Education
+        </p>
+        <p>
+        <strong>Lorenzo Walker Technical College</strong><br/>
+        <i>8/16-5/18</i><br/>
+        Certificates: Entrepreneurship, Marketing & E-Commerce
+        </p>
+        <p>
+        <strong>Lorenzo Walker Technical High School</strong><br/>
+        <i>1/15-5/18</i><br/>
+        summa cum laude
+        </p>
+      </div>
+      </aside>
+     </div>
+    </section>
+
+<!--Footer-->
+    <footer>
+      <p>Stephanie Ali's Student Portfolio</p>
+      <a href="http://www.w3.org/html/logo/">
+        <img id="badge" src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
+      </a>
+    </footer>
+  </body>
 </html>

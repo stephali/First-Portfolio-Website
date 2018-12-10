@@ -1,40 +1,67 @@
 <!DOCTYPE html>
-  <html lang="en-US">
-  <meta charset="UTF-8">
-    
-<head>
-  <title>Student Portfolio - Accessibility</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+<html lang="en-US">
+<meta charset="UTF-8">
 
-<body>
-  <center><h1 id="name">Stephanie Ali</h1></center>
-  
-  <!-- Menu -->
-  <center><h3>
-    <a href="index.html">Home</a> | <a href="aboutme.html">About Me</a> | <a href="education.html">Education</a> | <a href="portfolio.html">Portfolio</a> | <b>Accessibility</b>
-  </h3></center>
- <!-- End Menu-->
- 
- <h2>Website Accessibility & Usability</h2>
-  <div class="accessibility">
-      <p>
-      <strong>Doscument Structure</strong><br/>
-      The website is styled to be consistent throughout. The menu is placed at the very top of the site for easier accessibility<br/>
-      For easier navigation, a simple, minimalistic style was implemented.
-    </p>
-    <p>
-      <strong>Screen Size</strong><br/>
-      The size of the screen is compatible with any device. Text automatically resizes on the device you are using.</br>
-    </p>
-    <p>
-      <strong>Visibility</strong><br/>
-      The website is designed to be easy to read. Font effectively contrasts the background color to be easy on the reader's eyes</br>
-    </p>
-    <p>
-      <strong>Browser Compatibility</strong><br/>
-      Cascadading style sheets (css) is used for layout. Users with browsers that do not fully support css will still be able</br>
-      to view the content on the page. These users will be viewing the unstyled version of the website, meaning all content will </br>
-      be rendered to the browser's default color and font type. 
-    </p>
-  </div>
+<head>
+    <title>Student Portfolio - Accessibility</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width"
+    <meta name="author" content="Stephanie Ali"
+  </head>
+
+<!--Menu-->
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Stephanie Ali</span></h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li class="current"><a href="accessibility.html">Accessibility</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+<!--Accessibility Information-->
+    <section id="main">
+     <div class="container">
+      <article id="main-col">
+        <h1 class="page-title">Accessibility</h1>
+        <p>
+         <strong>Doscument Structure</strong><br/>
+         The website is styled to be consistent throughout. The menu is placed at the very top of the site for easier accessibility<br/>
+         For easier navigation, a simple, minimalistic style was implemented.
+       </p>
+       <p>
+         <strong>Screen Size</strong><br/>
+         The size of the screen is compatible with any device. Text automatically resizes on the device you are using.</br>
+       </p>
+       <p>
+         <strong>Visibility</strong><br/>
+         The website is designed to be easy to read. Font effectively contrasts the background color to be easy on the reader's eyes</br>
+       </p>
+       <p>
+         <strong>Browser Compatibility</strong><br/>
+         Cascadading style sheets (css) is used for layout. Users with browsers that do not fully support css will still be able</br>
+         to view the content on the page. These users will be viewing the unstyled version of the website, meaning all content will </br>
+         be rendered to the browser's default color and font type.
+       </p>
+      </article>
+     </div>
+    </section>
+
+<!-- Footer-->
+    <footer>
+      <p>Stephanie Ali's Student Portfolio</p>
+      <a href="http://www.w3.org/html/logo/">
+        <img id="badge" src="https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics">
+      </a>
+    </footer>
+  </body>
+</html>
+
